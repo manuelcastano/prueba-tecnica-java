@@ -1,0 +1,18 @@
+# curl --request PUT
+#  --url http://localhost:8080/product/stock
+#  --header 'Content-Type: application/json'
+#  --header 'User-Agent: insomnia/10.0.0'
+#  --data '{"franchiseName":"Starbucks", "branchName":"Jardín chipichape", "name": "Coffe", "stock":200}'
+PUT http://localhost:8080/product/stock
+User-Agent: insomnia/10.0.0
+Content-Type: application/json
+
+{
+  "franchiseName": "Starbucks",
+  "branchName": "Jardín chipichape",
+  "name": "Coffe",
+  "stock": 200
+}
+
+###
+

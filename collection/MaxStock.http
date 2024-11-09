@@ -1,0 +1,15 @@
+# curl --request GET
+#  --url http://localhost:8080/branch/maxStock
+#  --header 'Content-Type: application/json'
+#  --header 'User-Agent: insomnia/10.0.0'
+#  --data '{"name":"Nike"}'
+GET http://localhost:8080/branch/maxStock
+User-Agent: insomnia/10.0.0
+Content-Type: application/json
+
+{
+  "name": "Nike"
+}
+
+###
+

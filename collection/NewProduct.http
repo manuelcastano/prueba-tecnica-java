@@ -1,0 +1,18 @@
+# curl --request POST
+#  --url http://localhost:8080/product
+#  --header 'Content-Type: application/json'
+#  --header 'User-Agent: insomnia/10.0.0'
+#  --data '{"franchiseName":"Nike", "branchName":"unicentro", "name": "Jordan", "stock":158}'
+POST http://localhost:8080/product
+User-Agent: insomnia/10.0.0
+Content-Type: application/json
+
+{
+  "franchiseName": "Nike",
+  "branchName": "unicentro",
+  "name": "Jordan",
+  "stock": 158
+}
+
+###
+

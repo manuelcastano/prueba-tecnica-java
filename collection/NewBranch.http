@@ -1,0 +1,16 @@
+# curl --request POST
+#  --url http://localhost:8080/branch
+#  --header 'Content-Type: application/json'
+#  --header 'User-Agent: insomnia/10.0.0'
+#  --data '{"franchiseName":"Starbucks", "branchName":"Palmetto"}'
+POST http://localhost:8080/branch
+User-Agent: insomnia/10.0.0
+Content-Type: application/json
+
+{
+  "franchiseName": "Starbucks",
+  "branchName": "Palmetto"
+}
+
+###
+
